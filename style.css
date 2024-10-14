@@ -184,11 +184,52 @@ nav img{
 }
 .content4{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: white;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
     font-weight: 400;
     background-color: #2d2d2d;
-    width: 60vw;
+    max-width: 76vw;
+    margin: 7px auto;
+    padding: 25px 24px;
+    transition: all 1s ease-out;
+}
+.content4:hover{
+    background-color: #5e5a5a;
+    color: white;
+}
+.secondlast{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 35px 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+.redlast{
+    padding: 20px;
+    font-weight: bolder;
+    background-color: rgba(23, 23, 23,0.7);
+    color: white;
+    background-color: red;
+    border: 1px solid rgba(23, 23, 23,0.7);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.secondlast input{
+    padding: 20px;
+    font-weight: bolder;
+    background-color: rgba(23, 23, 23,0.7);
+    color: white;
+    border: 1px solid rgba(23, 23, 23,0.7);
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.last{
+    color: white;
+
 }
