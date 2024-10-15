@@ -229,7 +229,39 @@ nav img{
     margin: 10px 0;
     font-size: 15px;
 }
-.last{
+footer> :nth-child(1){
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 
+}
+footer{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: auto;
+    padding: 5px;
+}
+.footer{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.select select{
+    padding: 10px 25px;
+    margin: 30px 100px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border-color: #1d182e;
+
+}
+footer p{
+    color: white;
+    margin: 32px 0px 90px 100px;
+    font-size: medium;
 }
